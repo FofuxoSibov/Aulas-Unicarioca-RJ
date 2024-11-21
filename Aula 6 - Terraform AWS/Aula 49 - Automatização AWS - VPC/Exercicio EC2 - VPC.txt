@@ -1,0 +1,9 @@
+Criar grupo de segurança com porta 80 e 22
+
+
+
+Ou sejá existir o grupo de segurança
+que foi criado pela web
+
+
+Selecionar o grupo existente

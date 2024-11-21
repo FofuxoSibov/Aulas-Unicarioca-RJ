@@ -1,0 +1,11 @@
+#!/bin/bash
+# Atualiza os pacotes da instância
+yum update -y
+# Instala o Apache (httpd)
+yum install -y httpd
+# Inicia o Apache
+service httpd start
+# Configura o Apache para iniciar automaticamente na inicialização
+chkconfig httpd on
+# Cria uma página de teste simples
+echo "Olá, Apache está funcionando!" > /var/www/html/index.html
