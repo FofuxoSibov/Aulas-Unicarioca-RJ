@@ -1,0 +1,5 @@
+1 - Adquirir o domínio (Registro.BR)
+2 - Ele já tem a Hospedagem de DNS
+3 - Criar um registro www ou @ pontando para o DNS da AWS meusitefofuxo.s3-website-us-east-1.amazonaws.com
+
+Obs: caso a AWS troque de IPs, não precisamos ficar alterando o DNS
