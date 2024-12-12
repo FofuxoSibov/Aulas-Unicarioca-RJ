@@ -1,0 +1,10 @@
+#exibir as SubNets
+ec2 describe-subnets --query "Subnets[*].[SubnetId, VpcId]" --output table
+
+#Exibir VPCs
+aws ec2 describe-vpcs --output table
+
+Criar EC2 Windows pelo terraform na AWS
+Testar conexão remota
+
+

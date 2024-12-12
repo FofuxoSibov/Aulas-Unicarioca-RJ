@@ -1,0 +1,20 @@
+#exibir as SubNets
+ec2 describe-subnets --query "Subnets[*].[SubnetId, VpcId]" --output table
+
+#Exibir VPCs
+aws ec2 describe-vpcs --output table
+
+Criar VPC ANEIS-vpc (172.18.0.0/16)
+	Pub1 172.18.1.0/24
+	Pub2 172.18.2.0/24
+	Pri1 172.18.3.0/24
+	Pri2 172.18.4.0/24
+Criar EC2 Windows Server 2022 (base) pelo terraform na AWS
+Bootstrapping Visual Code e Chrome
+
+output IP de conexão
+usuário administrator e senha (descriptografar)?
+
+Testar conexão remota RDP
+
+

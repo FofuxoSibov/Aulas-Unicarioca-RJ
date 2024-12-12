@@ -1,0 +1,11 @@
+Ubuntu.tf
+Ubuntu + BootSprapping + SecGroup
+Hospedar Site Bike do Git
+
+Debian.tf
+Debian + BootSprapping + SecGroup
+Hospedar Site Bike do Git
+
+DebianDocker.tf
+Debian + BootSprapping + SecGroup
+Docker (Hospedar Site Bike do Git)
